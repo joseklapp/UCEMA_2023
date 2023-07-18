@@ -1,0 +1,11 @@
+examenes/
+
+# Data Science .gitignore
+*.csv
+*.pyc
+*.ipynb_checkpoints
+*.ipynb
+*.idea
+*.DS_Store
+*.ipynb
+*.pyc
