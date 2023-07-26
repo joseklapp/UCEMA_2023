@@ -12,7 +12,7 @@ class TestValidAnagram(unittest.TestCase):
     def test_valid_anagram1(self):
         self.assertEqual(TestValidAnagram.validaranagrama("listen", "silent"), True)
 
-    def test_valid_anagram2(self):
+    def test_triangle_integral(self):
         self.assertEqual(TestValidAnagram.validaranagrama("triangle", "integral"), True)
 
     def test_valid_anagram3(self):
