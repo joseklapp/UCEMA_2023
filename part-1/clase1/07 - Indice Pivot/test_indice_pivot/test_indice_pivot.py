@@ -17,8 +17,6 @@ class TestPivotIndex(unittest.TestCase):
     def test_pivot_index3(self):
         self.assertEqual(TestPivotIndex.validar_indice([-1, -1, -1, 0, 1, 1]), 0)
 
-    def test_pivot_index4(self):
-        self.assertEqual(TestPivotIndex.validar_indice([5, 2, 6, 7, 1, 8, 3]), 3)
 
 
 if __name__ == '__main__':

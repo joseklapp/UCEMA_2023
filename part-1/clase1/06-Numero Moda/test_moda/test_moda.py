@@ -13,7 +13,7 @@ class TestModa(unittest.TestCase):
         self.assertEqual(TestModa.validarmoda([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), 4)
 
     def test_moda2(self):
-        self.assertEqual(TestModa.validarmoda([5, 5, 5, 2, 2, 2, 2, 7, 7]), 2)
+        self.assertEqual(TestModa.validarmoda([5, 5, 5,2, 2, 2, 2, 2, 7, 7]), 2)
 
     def test_moda3(self):
         self.assertEqual(TestModa.validarmoda([10, 5, 10, 3, 5, 3, 10]), 10)
