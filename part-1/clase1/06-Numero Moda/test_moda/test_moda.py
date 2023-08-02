@@ -4,11 +4,10 @@ import unittest
 from typing import List
 
 
-
 class TestModa(unittest.TestCase):
     @staticmethod
     def validarmoda(nums) -> bool:
-        raise NotImplementedError("You need to provide your own implementation of `contains_duplicate`!")
+        raise NotImplementedError("Debes realizar la implementacion de la funcion!")
 
     def test_moda1(self):
         self.assertEqual(TestModa.validarmoda([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]), 4)
@@ -21,6 +20,7 @@ class TestModa(unittest.TestCase):
 
     def test_moda4(self):
         self.assertEqual(TestModa.validarmoda([8, 8, 8, 8, 8, 8, 8, 8, 8, 8]), 8)
+
 
 if __name__ == '__main__':
     unittest.main()
