@@ -7,3 +7,4 @@ examenes/
 *.idea
 *.DS_Store
 *.pyc
+.pytest_cache
