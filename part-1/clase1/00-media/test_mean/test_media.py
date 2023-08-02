@@ -12,13 +12,13 @@ class TestCalculateMean(unittest.TestCase):
         ''' calcula la media de una array sin usar librerias'''
         return sum(arr)/len(arr)
 
-    def test_calculate_mean1(self):
+    def test_calculo_12345(self):
         self.assertEqual(TestCalculateMean.calculate_mean([1, 2, 3, 4, 5]), 3.0)
 
-    def test_calculate_mean2(self):
+    def test_calculo_123410(self):
         self.assertEqual(TestCalculateMean.calculate_mean([1, 2, 3, 4, 10]), 4.0)
 
-    def test_calculate_mean3(self):
+    def test_calculo_101(self):
         self.assertEqual(TestCalculateMean.calculate_mean([-1, 0, 1]), 0.0)
 
 if __name__ == "__main__":
