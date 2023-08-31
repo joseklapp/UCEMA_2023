@@ -32,4 +32,4 @@ def make_random_groups(students, number_of_groups):
     for index, group in enumerate(all_groups):
         print(f"✨Group {index + 1}✨: {' / '.join(group)}\n")
 
-make_random_groups(students, 4)
+make_random_groups(students, 5)
